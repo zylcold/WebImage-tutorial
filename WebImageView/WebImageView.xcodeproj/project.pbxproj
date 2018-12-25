@@ -15,6 +15,10 @@
 		6E0C27ED21D209F0006066EC /* ImageUrlDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0C27EC21D209F0006066EC /* ImageUrlDatas.swift */; };
 		6E0C27EF21D21660006066EC /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0C27EE21D21660006066EC /* ViewExtension.swift */; };
 		6E0C27F121D21AD0006066EC /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0C27F021D21AD0006066EC /* CacheManager.swift */; };
+		6E0C27F321D21EE9006066EC /* WebImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0C27F221D21EE9006066EC /* WebImageManager.swift */; };
+		6E0C27F521D21F24006066EC /* WebImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0C27F421D21F24006066EC /* WebImageDownloader.swift */; };
+		6E0C27F721D22063006066EC /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0C27F621D22063006066EC /* TableViewController.swift */; };
+		6E0C27F921D22281006066EC /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E0C27F821D22281006066EC /* placeholder.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		6E0C27EC21D209F0006066EC /* ImageUrlDatas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUrlDatas.swift; sourceTree = "<group>"; };
 		6E0C27EE21D21660006066EC /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 		6E0C27F021D21AD0006066EC /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		6E0C27F221D21EE9006066EC /* WebImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImageManager.swift; sourceTree = "<group>"; };
+		6E0C27F421D21F24006066EC /* WebImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImageDownloader.swift; sourceTree = "<group>"; };
+		6E0C27F621D22063006066EC /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		6E0C27F821D22281006066EC /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +72,15 @@
 				6E0C27DA21D2089C006066EC /* AppDelegate.swift */,
 				6E0C27DC21D2089C006066EC /* ViewController.swift */,
 				6E0C27DE21D2089C006066EC /* Main.storyboard */,
+				6E0C27F821D22281006066EC /* placeholder.png */,
 				6E0C27E121D2089D006066EC /* Assets.xcassets */,
 				6E0C27E321D2089D006066EC /* LaunchScreen.storyboard */,
 				6E0C27E621D2089D006066EC /* Info.plist */,
 				6E0C27EE21D21660006066EC /* ViewExtension.swift */,
 				6E0C27F021D21AD0006066EC /* CacheManager.swift */,
+				6E0C27F221D21EE9006066EC /* WebImageManager.swift */,
+				6E0C27F421D21F24006066EC /* WebImageDownloader.swift */,
+				6E0C27F621D22063006066EC /* TableViewController.swift */,
 			);
 			path = WebImageView;
 			sourceTree = "<group>";
@@ -132,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E0C27E521D2089D006066EC /* LaunchScreen.storyboard in Resources */,
+				6E0C27F921D22281006066EC /* placeholder.png in Resources */,
 				6E0C27E221D2089D006066EC /* Assets.xcassets in Resources */,
 				6E0C27E021D2089C006066EC /* Main.storyboard in Resources */,
 			);
@@ -144,9 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E0C27F321D21EE9006066EC /* WebImageManager.swift in Sources */,
 				6E0C27ED21D209F0006066EC /* ImageUrlDatas.swift in Sources */,
 				6E0C27F121D21AD0006066EC /* CacheManager.swift in Sources */,
+				6E0C27F721D22063006066EC /* TableViewController.swift in Sources */,
 				6E0C27DD21D2089C006066EC /* ViewController.swift in Sources */,
+				6E0C27F521D21F24006066EC /* WebImageDownloader.swift in Sources */,
 				6E0C27EF21D21660006066EC /* ViewExtension.swift in Sources */,
 				6E0C27DB21D2089C006066EC /* AppDelegate.swift in Sources */,
 			);

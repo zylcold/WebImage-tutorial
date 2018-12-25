@@ -17,7 +17,5 @@ class ViewController: UIViewController {
         
         imageView.yl_setImage(url: url, placeholderImage: nil)
     }
-
-
 }
 
