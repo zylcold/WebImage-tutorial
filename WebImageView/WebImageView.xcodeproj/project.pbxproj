@@ -14,6 +14,7 @@
 		6E0C27E521D2089D006066EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E0C27E321D2089D006066EC /* LaunchScreen.storyboard */; };
 		6E0C27ED21D209F0006066EC /* ImageUrlDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0C27EC21D209F0006066EC /* ImageUrlDatas.swift */; };
 		6E0C27EF21D21660006066EC /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0C27EE21D21660006066EC /* ViewExtension.swift */; };
+		6E0C27F121D21AD0006066EC /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0C27F021D21AD0006066EC /* CacheManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		6E0C27E621D2089D006066EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E0C27EC21D209F0006066EC /* ImageUrlDatas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUrlDatas.swift; sourceTree = "<group>"; };
 		6E0C27EE21D21660006066EC /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		6E0C27F021D21AD0006066EC /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				6E0C27E321D2089D006066EC /* LaunchScreen.storyboard */,
 				6E0C27E621D2089D006066EC /* Info.plist */,
 				6E0C27EE21D21660006066EC /* ViewExtension.swift */,
+				6E0C27F021D21AD0006066EC /* CacheManager.swift */,
 			);
 			path = WebImageView;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E0C27ED21D209F0006066EC /* ImageUrlDatas.swift in Sources */,
+				6E0C27F121D21AD0006066EC /* CacheManager.swift in Sources */,
 				6E0C27DD21D2089C006066EC /* ViewController.swift in Sources */,
 				6E0C27EF21D21660006066EC /* ViewExtension.swift in Sources */,
 				6E0C27DB21D2089C006066EC /* AppDelegate.swift in Sources */,
