@@ -16,7 +16,7 @@ DerivedData/
 *.perspectivev3
 !default.perspectivev3
 xcuserdata/
-
+WebImageView/WebImageView.xcodeproj/project.xcworkspace/*
 ## Other
 *.moved-aside
 *.xccheckout

@@ -15,9 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         view.addSubview(imageView)
         
-        if let imageData = try? Data(contentsOf: url)  {
-            self.imageView.image = UIImage(data: imageData)
-        }
+        imageView.yl_setImage(url: url, placeholderImage: nil)
     }
 
 
